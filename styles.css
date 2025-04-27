@@ -1,0 +1,169 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #eb5c5c;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Authentication Section */
+  .auth-container {
+    max-width: 400px;
+    margin: 80px auto;
+    background: #f7f3f3;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(216, 195, 195, 0.1);
+  }
+  
+  .auth-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    border: 1px solid #964d4d;
+    border-radius: 8px;
+  }
+  
+  button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 12px;
+    font-weight: bold;
+    background: #964d4d;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #964d4d;
+  }
+  
+  .google-btn {
+    background: #4285F4;
+  }
+  
+  .google-btn:hover {
+    background: #3367d6;
+  }
+  
+  #toggle-auth {
+    margin-top: 15px;
+    text-align: center;
+  }
+  
+  #toggle-auth span {
+    color: #6200ea;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  /* Board Section */
+  #board-section {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  
+  .top-bar {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .logout-btn {
+    background: #d32f2f;
+  }
+  
+  .logout-btn:hover {
+    background: #b71c1c;
+  }
+  
+  /* Board Layout */
+  .board {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .column {
+    flex: 1;
+    min-width: 300px;
+    background: #e0e0e0;
+    padding: 20px;
+    border-radius: 12px;
+  }
+  
+  .column h2 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  /* Task Card */
+  .card {
+    background: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  /* Action Buttons inside Card */
+  .card button {
+    margin-top: 8px;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .move-progress {
+    background: #4caf50;
+  }
+  
+  .move-progress:hover {
+    background: #388e3c;
+  }
+  
+  .edit {
+    background: #ff9800;
+  }
+  
+  .edit:hover {
+    background: #fb8c00;
+  }
+  
+  .delete {
+    background: #f44336;
+  }
+  
+  .delete:hover {
+    background: #e53935;
+  }
+  
+  /* Create New Task Button */
+  .create-btn {
+    margin-top: 10px;
+    background: #03dac6;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .create-btn:hover {
+    background: #00bfa5;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .board {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
